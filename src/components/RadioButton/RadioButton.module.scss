@@ -1,0 +1,71 @@
+@import "src/styles/variables";
+
+.radioButtonContainer {
+
+  .radioGroup {
+    display: flex;
+
+    .radioContainer {
+      border-radius: 10px;
+      background-color: #E4E4E4;
+      padding: 10px 14px;
+      margin-right: 10px;
+      cursor: pointer;
+      transition: background-color 0.23s linear;
+
+      &.active {
+        background-color: var(--primary-color);
+        transition: background-color 0.23s linear;
+
+        > label {
+          > span {
+            &:nth-of-type(1) {
+              > span {
+                border-color: #fff;
+                border-width: 2px;
+
+                &:after {
+                  width: 26px;
+                  height: 26px;
+                  margin-block-start: -13px;
+                  margin-inline-start: -13px;
+                }
+              }
+            }
+
+            &:nth-of-type(2) {
+              color: #fff;
+            }
+          }
+        }
+      }
+
+      > label {
+        display: flex;
+        flex-direction: row-reverse;
+
+        > span {
+          &:nth-of-type(1) {
+            > span {
+              border-color: #4F4D4D;
+              border-width: 2px;
+              width: 20px;
+              height: 20px;
+              background-color: transparent;
+            }
+          }
+
+          &:nth-of-type(2) {
+            color: #8A8A8E;
+            font-family: "Avenir Next";
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px; /* 129.412% */
+            letter-spacing: -0.408px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.inputContainer {
+
+  > p {
+    color: #4F4D4D;
+    font-family: "Avenir A Cyr";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+    letter-spacing: -0.408px;
+    margin-bottom: 5px;
+  }
+
+  .input {
+    border-radius: 10px;
+    background: #E4E4E4;
+    min-height: 44px;
+    color: #8A8A8E;
+    font-family: SFMono-Regular;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 129.412% */
+    letter-spacing: -0.408px;
+  }
+}
