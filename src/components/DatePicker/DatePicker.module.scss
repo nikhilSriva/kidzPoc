@@ -1,8 +1,9 @@
 @import "src/styles/variables";
 
 .datePicker {
-  background-color: #E4E4E4;
+  background-color: #E4E4E4 !important;
   min-height: 44px;
   border-radius: 10px;
   min-width: 215px;
+  
 }
