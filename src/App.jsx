@@ -8,14 +8,18 @@ function App() {
     const [qrValue, setQrValue] = useState('');
 
     return (
-        <>
+        <div className={'app'}>
             {
                 !showQr ? <DetailsForm onComplete={(formData) => {
-                    setShowQr(true);
-                    setQrValue(JSON.stringify(formData))
-                }}/> : <QRCode value={qrValue}/>
+                        setShowQr(true);
+                        setQrValue(formData)
+                    }}/> :
+                    <div>
+                        <h3>{qrValue.name}</h3>
+                        <QRCode value={JSON.stringify(qrValue)}/>
+                    </div>
             }
-        </>
+        </div>
     )
 }
 

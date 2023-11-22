@@ -35,3 +35,14 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.app {
+  > div {
+    > h3 {
+      color: #222;
+      font-family: "Avenir Next";
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
