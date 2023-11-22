@@ -12,6 +12,7 @@
       margin-right: 10px;
       cursor: pointer;
       transition: background-color 0.23s linear;
+      min-width: 180px;
 
       &.active {
         background-color: var(--primary-color);
@@ -61,8 +62,10 @@
             font-size: 17px;
             font-style: normal;
             font-weight: 400;
-            line-height: 22px; /* 129.412% */
+            line-height: 22px;
             letter-spacing: -0.408px;
+            width: 100%;
+            text-align: left;
           }
         }
       }

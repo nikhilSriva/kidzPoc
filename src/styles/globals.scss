@@ -20,6 +20,13 @@ body {
   background-color: #eee;
 }
 
+#root {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 body {
   overflow: auto;
 }

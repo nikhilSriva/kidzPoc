@@ -1,0 +1,21 @@
+@import "src/styles/variables";
+
+.primaryButton {
+  background-color: rgba(180, 180, 180, 1);
+  min-height: 44px;
+  color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  font-family: "Avenir Next";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+
+  &:hover {
+    color: unset !important;
+    border-color: rgb(180, 180, 180) !important;
+    box-shadow: 0px 2px 8px 2px rgb(29, 27, 33, 0.4);
+  }
+}

@@ -1,5 +1,5 @@
 .formContainer {
-  width: 30vw;
+  width: 60vw;
   height: auto;
   border-radius: 6px;
 
@@ -11,5 +11,37 @@
     font-weight: 700;
     line-height: 22px; /* 73.333% */
     letter-spacing: -0.408px;
+    margin-bottom: 20px;
+
+  }
+
+  .element {
+    margin-bottom: 15px;
+
+    .label {
+      color: #4F4D4D;
+      font-family: "Avenir Next";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px; /* 122.222% */
+      letter-spacing: -0.408px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .input {
+    display: flex;
+    flex: 0.48;
+  }
+
+  .addButton {
+    margin-top: 20px;
   }
 }
